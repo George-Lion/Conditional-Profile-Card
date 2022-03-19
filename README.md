@@ -1,5 +1,13 @@
 # Conditional Profile Card
 
+A ternary operator is an operator which has three operands or arguments. Using this operator we can go from having
+several lines of code to have a single one.
+
+The purpose of this exercise is to execute a command that renders a user profile in which you can complete your data
+through a form, to do this using the ternary operators together with the string interpolation in the HTML tags
+called in the same JavaScript file, this way we can make our file render all the information entered by the user.
+
+
 Note: Make sure that you have node.js installed in your computer by typing in your terminal:
 
 ```bash
