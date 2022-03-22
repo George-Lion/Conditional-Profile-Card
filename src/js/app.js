@@ -40,22 +40,30 @@ function render(variables = {}) {
     variables.lastname ? variables.lastname : "Last"
   }</h1>
           <h2>${variables.role ? variables.role : "Role"}</h2>
-          <h3>${variables.city ? variables.country : "City,"} ${
+          <h3>${variables.city ? variables.city : "City"} ${
     variables.country ? variables.country : "Country"
   }</h3>
           <ul class="${variables.socialMediaPosition}">
-            <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i>${
+            <li><a href="https://twitter.com/${
               variables.twitter ? variables.twitter : "twitter"
-            }</a></li>
-            <li><a href="https://github.com/4geeksacademy"><i class="fab fa-github"></i>${
+            }"><i class="fab fa-twitter"></i>${
+    variables.twitter ? variables.twitter : "twitter"
+  }</a></li>
+            <li><a href="https://github.com/${
               variables.github ? variables.github : "linkedin"
-            }</a></li>
-            <li><a href="https://linkedin.com/4geeksacademy"><i class="fab fa-linkedin"></i>${
+            }"><i class="fab fa-github"></i>${
+    variables.github ? variables.github : "linkedin"
+  }</a></li>
+            <li><a href="https://linkedin.com/${
               variables.linkedin ? variables.linkedin : "linkedin"
-            }</a></li>
-            <li><a href="https://instagram.com/4geeksacademy"><i class="fab fa-instagram"></i>${
+            }"><i class="fab fa-linkedin"></i>${
+    variables.linkedin ? variables.linkedin : "linkedin"
+  }</a></li>
+            <li><a href="https://instagram.com/${
               variables.instagram ? variables.instagram : "instagram"
-            }</a></li>
+            }"><i class="fab fa-instagram"></i>${
+    variables.instagram ? variables.instagram : "instagram"
+  }</a></li>
           </ul>
         </div>
     `;
